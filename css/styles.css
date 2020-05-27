@@ -1,0 +1,99 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 5%;
+  font-size: 1.2em;
+}
+
+a {
+  color: #ffffff;
+}
+
+nav {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav a:last-child {
+  float: right;
+}
+nav a:first-child {
+  float: left;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: .9em;
+  border: 1px solid;
+  padding: 1em;
+}
+
+.visually-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.skip-to-content-link {
+  position: absolute;
+  top: 0;
+  left: -1000px;
+}
+
+.skip-to-content-link:focus {
+  left: 0;
+}
+
+.index {
+  color: #333333;
+}
+
+.index a {
+  color: blue;
+}
+
+.bgPurple {
+  background-color: #25263C;
+}
+
+.bgTeal {
+  background-color: #28A197;
+}
+
+.slide1 img {
+  border-radius: 50%;
+  width: 60%;
+  margin-top: 2em;
+  border: 10px solid #ffffff;
+}
+
+.slide3 img {
+  width: 50%;
+  margin-top: 2em;
+  border: 10px solid #ffffff;
+}
+
+.border-2 {
+  border: 2px solid;
+  padding: .2em;
+  margin: .2em;
+}
